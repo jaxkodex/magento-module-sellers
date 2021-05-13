@@ -3,4 +3,10 @@
 	<extension_attributes for="Magento\Customer\Api\Data\CustomerInterface">
 		<attribute code="seller_name" type="string"/>
 	</extension_attributes>
+	<extension_attributes for="Magento\Quote\Api\Data\CartItemInterface">
+    <attribute code="seller" type="string" />
+  </extension_attributes>
+  <extension_attributes for="Magento\Sales\Api\Data\OrderItemInterface">
+    <attribute code="seller" type="string" />
+  </extension_attributes>
 </config>

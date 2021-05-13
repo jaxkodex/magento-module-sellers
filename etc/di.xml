@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Quote\Model\Quote\Item\ToOrderItem">
+		<plugin name="SuperCoolCo_Sellers_Plugin_Quote_SellerOrderItem" type="SuperCoolCo\Sellers\Plugin\Quote\SellerOrderItem" sortOrder="10" disabled="false"/>
+	</type>
+  <type name="Magento\Sales\Api\OrderItemRepositoryInterface">
+		<plugin name="SuperCoolCo_Sellers_Plugin_Magento_Sales_Api_OrderItemRepositoryInterface" type="SuperCoolCo\Sellers\Plugin\Sales\Api\OrderItemRepositoryInterface" sortOrder="10" disabled="false"/>
+	</type>
+</config>
