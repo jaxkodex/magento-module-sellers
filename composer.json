@@ -1,0 +1,22 @@
+{
+    "name": "supercoolco/module-sellers",
+    "description": "A simple module to add Seller information to magento",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SuperCoolCo\\Sellers\\": ""
+        }
+    }
+}
